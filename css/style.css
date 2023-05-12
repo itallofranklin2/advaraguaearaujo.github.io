@@ -1,0 +1,416 @@
+/*COMEÇO HEADER*/
+@font-face {
+    font-family: "New Roman";
+    src: url("/fonts/times-new-roman-14") format("ttf").
+}
+
+
+.tema {
+    margin-top: -90px;
+    background-image: url(../img/4.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.icone {
+    height: 60px;
+}
+
+.nav-link {
+    font-size: 20px;
+    padding-top: 25px;
+    color: white !important;
+    font-weight: 600;
+}
+
+.chama {
+    font-family: "New Roman";
+    padding: 250px 100px;
+    font-size: 120px;
+    color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/icons/menu.png);
+}
+
+.borda {}
+
+.iconeInfo {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1100px) {
+    .wppRodape {
+        background-color: #34af23;
+        height: 200px;
+        /* position: absolute; */
+        /* text-align: center; */
+        /* width: 61%; */
+        font-size: 13px !important;
+        z-index: 5;
+        padding: 15px !important;
+        border-radius: 20px;
+        color: white;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .borda {
+        border: 1px solid white;
+        padding: 22px;
+        margin-bottom: 26px;
+        border-radius: 20px;
+        margin-top: 27px;
+    }
+
+    .tema {
+        margin-top: -90px;
+        background-image: url(../img/capa.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 800px;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .navbar-collapse {
+        background-color: black !important;
+    }
+
+    .chama {
+        font-family: "New Roman";
+        text-align: center;
+        padding: 311px 0px !important;
+        font-size: 49px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        padding-top: 0px;
+        color: white !important;
+        font-weight: 600;
+    }
+
+    .tema {
+        margin-top: -180px;
+        background-image: url(../img/capa.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+
+    .areas {
+        background-color: white;
+    }
+
+    input,
+    textarea,
+    button {
+        margin: 10px 0px !important;
+    }
+
+    .card {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .boxwpp {
+        margin-top: 0px !important;
+    }
+
+    .wpp {
+        width: 100% !important;
+        background-color: #34af23;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        padding-left: 38px;
+        margin: 0px -31px;
+        justify-content: flex-start !important;
+    }
+
+    .aboutProfile {
+        background-color: black;
+        width: 64% !important;
+        margin-left: 65px;
+        /* padding-left: 24px; */
+        border-radius: 100%;
+        height: 250px;
+    }
+
+    .form {
+        margin-left: -26px;
+    }
+
+    .pn {
+        border-bottom: 1px solid white;
+    }
+
+    .box .boximg {
+        padding-top: 40px;
+        width: 100%;
+        height: 130px;
+    }
+}
+
+/*FIM DO HEADER*/
+
+/*COMEÇO SOBRE*/
+input:focus,
+textarea:focus,
+button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.sobre {
+    background: #2B2B2B;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+.aboutProfile {
+    background-color: black;
+    width: 100%;
+    border-radius: 100%;
+    height: 250px;
+}
+
+.sobre h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 30px;
+    text-align: left;
+    display: block;
+}
+
+.sobre p {
+    display: block;
+    line-height: 30px;
+    color: #7A7A7A;
+    font-size: 18px;
+}
+
+.modal {}
+
+/*FIM DO SOBRE*/
+
+/*COMEÇO areas*/
+
+.areas {
+    padding: 150px 0px;
+}
+
+.areas h2 {
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    margin: 30px 0px;
+    background-color: #24252a;
+    box-shadow: 3px 3px 7px RGBA(0, 0, 0, 0.2);
+    height: 200px;
+    color: white;
+}
+
+/*
+.boxblue{
+    background-color: darkblue;
+    height: 100px;
+    background-size: cover;
+}*/
+.box p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.box .boximg {
+    padding-top: 40px;
+    width: 25%;
+}
+
+.flip-2-hor-top-fwd {
+    -webkit-animation: flip-2-hor-top-fwd 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: flip-2-hor-top-fwd 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+/*FIM DO areas*/
+
+/*COMEÇO Perfil*/
+
+.perfil {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.perfil h2 {
+    text-align: center;
+}
+
+.perfil h3 {
+    padding: 20px 0px;
+}
+
+.perfil .imgPerfil {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.perfil .distancia {
+    margin-top: 100px;
+}
+
+
+input,
+textarea {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    margin: 20px;
+    color: white !important;
+    background-color: dimgrey;
+}
+
+button {
+    width: 100%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: dimgrey;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+input:-moz-placeholder {
+    color: white;
+}
+
+textarea:-moz-placeholder {
+    color: white;
+}
+
+
+.parallax {
+    padding: 30px 0px;
+    background-image: url(../img/parallax.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.parallax p {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.contato {
+    color: white;
+    padding: 50px;
+    background-color: #24252a;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.info p {
+    text-align: center;
+}
+
+.pn {
+
+    text-align: left;
+}
+
+.boxwpp img {
+    margin-right: 20px;
+}
+
+.boxwpp {
+    margin-top: -30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #34af23;
+    color: white;
+}
+
+.linkWpp {
+    text-decoration: none !Important;
+}
+
+.linkWpp:hover {
+    text-decoration: none !Important;
+}
+
+
+
+.aoba {
+    padding-top: 80px;
+}
+
+.wppRodape:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.wppRodape {
+    background-color: #34af23;
+    height: 200px;
+    /* position: absolute; */
+    /* text-align: center; */
+    width: 100%;
+    font-size: 22px;
+    z-index: 5;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+@media screen and (max-width:769px) {
+    .aoba {
+        padding-top: 25px !important;
+    }
+
+    .wppRodape {
+        background-color: #34af23;
+        height: 200px;
+        /* position: absolute; */
+        /* text-align: center; */
+        width: 100%;
+        font-size: 17px !important;
+        z-index: 5;
+        padding: 24px !important;
+        border-radius: 20px;
+        color: white;
+    }
+}
+}
+
+/*FIM DO Perfil*/
